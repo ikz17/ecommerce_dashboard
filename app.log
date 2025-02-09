@@ -21,3 +21,674 @@ WARNING:werkzeug: * Debugger is active!
 INFO:werkzeug: * Debugger PIN: 910-393-052
 WARNING:werkzeug: * Debugger is active!
 INFO:werkzeug: * Debugger PIN: 910-393-052
+INFO:werkzeug: * Detected change in 'c:\\Users\\ibrah\\Downloads\\DT402-flask-main\\DT402-flask-main\\Dashboard WebApp\\app.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\ibrah\\Downloads\\DT402-flask-main\\DT402-flask-main\\Dashboard WebApp\\app.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\ibrah\\Downloads\\DT402-flask-main\\DT402-flask-main\\Dashboard WebApp\\app.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\ibrah\\Downloads\\DT402-flask-main\\DT402-flask-main\\Dashboard WebApp\\app.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\ibrah\\Downloads\\DT402-flask-main\\DT402-flask-main\\Dashboard WebApp\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 910-393-052
+INFO:werkzeug: * Debugger PIN: 910-393-052
+INFO:werkzeug: * Detected change in 'c:\\Users\\ibrah\\Downloads\\DT402-flask-main\\DT402-flask-main\\Dashboard WebApp\\app.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\ibrah\\Downloads\\DT402-flask-main\\DT402-flask-main\\Dashboard WebApp\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 910-393-052
+INFO:werkzeug: * Debugger PIN: 910-393-052
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 910-393-052
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 12:51:34] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 12:51:34] "GET /static/dashboard_stylesheet.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 12:51:34] "GET /static/dashboard-script.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 12:51:34] "GET /api/low_stock_levels HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 12:51:34] "GET /api/orders_over_time HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 12:51:34] "GET /api/most_popular_products HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 12:51:34] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): archive-api.open-meteo.com:443
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 12:51:34] "GET /api/revenue_generation HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 12:51:34] "GET /api/payment_method_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 12:51:34] "GET /api/product_category_popularity HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:https://archive-api.open-meteo.com:443 "GET /v1/archive?latitude=50.6053&longitude=-3.5952&start_date=2023-05-01&end_date=2023-08-31&daily=temperature_2m_max&timezone=GMT HTTP/11" 200 None
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 12:51:34] "GET /api/temperature_over_time HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 13:10:17] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 13:10:17] "[36mGET /static/dashboard_stylesheet.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 13:10:17] "[36mGET /static/dashboard-script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 13:10:17] "GET /api/low_stock_levels HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 13:10:17] "GET /api/most_popular_products HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 13:10:17] "GET /api/orders_over_time HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 13:10:17] "GET /api/payment_method_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 13:10:17] "GET /api/product_category_popularity HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): archive-api.open-meteo.com:443
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 13:10:17] "GET /api/revenue_generation HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:https://archive-api.open-meteo.com:443 "GET /v1/archive?latitude=50.6053&longitude=-3.5952&start_date=2023-05-01&end_date=2023-08-31&daily=temperature_2m_max&timezone=GMT HTTP/11" 200 None
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 13:10:17] "GET /api/temperature_over_time HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Scripts\\pip-script.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 910-393-052
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\lance\\arrow.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\lance\\arrow.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\lance\\arrow.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\lance\\blob.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\lance\\blob.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\lance\\commit.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\lance\\commit.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\lance\\commit.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\lance\\conftest.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\lance\\conftest.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\lance\\conftest.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\lance\\dataset.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\lance\\dataset.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\lance\\debug.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\lance\\debug.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\lance\\dependencies.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\lance\\dependencies.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\lance\\download.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\lance\\download.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\lance\\download.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\lance\\file.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\lance\\file.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\lance\\file.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\lance\\fragment.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\lance\\fragment.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\lance\\hf.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\lance\\hf.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\lance\\hf.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\lance\\indices.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\lance\\indices.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\lance\\log.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\lance\\log.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\lance\\log.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\lance\\optimize.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\lance\\optimize.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\lance\\progress.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\lance\\progress.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\lance\\ray\\sink.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\lance\\ray\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\lance\\ray\\sink.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\lance\\ray\\sink.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\lance\\ray\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\lance\\ray\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\lance\\ray\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\lance\\sampler.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\lance\\sampler.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\lance\\schema.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\lance\\schema.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\lance\\schema.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\lance\\tf\\data.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\lance\\tf\\tfrecord.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\lance\\tf\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\lance\\tf\\data.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\lance\\tf\\data.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\lance\\tf\\tfrecord.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\lance\\tf\\tfrecord.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\lance\\tf\\tfrecord.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\lance\\tf\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\lance\\tf\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\lance\\torch\\async_dataset.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\lance\\torch\\bench_utils.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\lance\\torch\\data.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\lance\\torch\\dist.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\lance\\torch\\async_dataset.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\lance\\torch\\async_dataset.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\lance\\torch\\bench_utils.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\lance\\torch\\bench_utils.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\lance\\torch\\data.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\lance\\torch\\data.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\lance\\torch\\dist.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\lance\\torch\\dist.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\lance\\torch\\distance.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\lance\\torch\\distance.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\lance\\torch\\kmeans.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\lance\\torch\\kmeans.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\lance\\torch\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\lance\\torch\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\lance\\torch\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\lance\\tracing.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\lance\\tracing.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\lance\\types.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\lance\\types.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\lance\\udf.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\lance\\udf.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\lance\\util.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\lance\\util.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\lance\\vector.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\lance\\vector.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\lance\\_arrow\\bf16.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\lance\\_arrow\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\lance\\_arrow\\bf16.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\lance\\_arrow\\bf16.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\lance\\_arrow\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\lance\\_arrow\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\lance\\_arrow\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\lance\\_datagen.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\lance\\_datagen.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\lance\\_datagen.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\lance\\_dataset\\cache.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\lance\\_dataset\\sharded_batch_iterator.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\lance\\_dataset\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\lance\\_dataset\\cache.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\lance\\_dataset\\cache.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\lance\\_dataset\\sharded_batch_iterator.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\lance\\_dataset\\sharded_batch_iterator.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\lance\\_dataset\\sharded_batch_iterator.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\lance\\_dataset\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\lance\\_dataset\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\lance\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\lance\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\lance\\__init__.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 910-393-052
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 13:13:36] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 13:13:36] "[36mGET /static/dashboard_stylesheet.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 13:13:36] "[36mGET /static/dashboard-script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 13:13:36] "GET /api/orders_over_time HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 13:13:36] "GET /api/most_popular_products HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 13:13:36] "GET /api/revenue_generation HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 13:13:36] "GET /api/payment_method_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 13:13:36] "GET /api/product_category_popularity HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): archive-api.open-meteo.com:443
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 13:13:36] "GET /api/low_stock_levels HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:https://archive-api.open-meteo.com:443 "GET /v1/archive?latitude=50.6053&longitude=-3.5952&start_date=2023-05-01&end_date=2023-08-31&daily=temperature_2m_max&timezone=GMT HTTP/11" 200 None
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 13:13:36] "GET /api/temperature_over_time HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 13:23:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 13:23:02] "[36mGET /static/dashboard_stylesheet.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 13:23:02] "[36mGET /static/dashboard-script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 13:23:02] "GET /api/low_stock_levels HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 13:23:02] "GET /api/payment_method_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 13:23:02] "GET /api/product_category_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 13:23:02] "GET /api/most_popular_products HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): archive-api.open-meteo.com:443
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 13:23:02] "GET /api/orders_over_time HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 13:23:02] "GET /api/revenue_generation HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:https://archive-api.open-meteo.com:443 "GET /v1/archive?latitude=50.6053&longitude=-3.5952&start_date=2023-05-01&end_date=2023-08-31&daily=temperature_2m_max&timezone=GMT HTTP/11" 200 None
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 13:23:02] "GET /api/temperature_over_time HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 13:23:24] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 13:23:25] "[36mGET /static/dashboard_stylesheet.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 13:23:25] "[36mGET /static/dashboard-script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 13:23:25] "GET /api/low_stock_levels HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 13:23:25] "GET /api/orders_over_time HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 13:23:25] "GET /api/revenue_generation HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 13:23:25] "GET /api/payment_method_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 13:23:25] "GET /api/product_category_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 13:23:25] "GET /api/most_popular_products HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): archive-api.open-meteo.com:443
+DEBUG:urllib3.connectionpool:https://archive-api.open-meteo.com:443 "GET /v1/archive?latitude=50.6053&longitude=-3.5952&start_date=2023-05-01&end_date=2023-08-31&daily=temperature_2m_max&timezone=GMT HTTP/11" 200 None
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 13:23:25] "GET /api/temperature_over_time HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 20:05:25] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 20:05:25] "[36mGET /static/dashboard_stylesheet.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 20:05:25] "[36mGET /static/dashboard-script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 20:05:25] "GET /api/product_category_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 20:05:25] "GET /api/payment_method_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 20:05:25] "GET /api/most_popular_products HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 20:05:25] "GET /api/low_stock_levels HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): archive-api.open-meteo.com:443
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 20:05:25] "GET /api/orders_over_time HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 20:05:25] "GET /api/revenue_generation HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:https://archive-api.open-meteo.com:443 "GET /v1/archive?latitude=50.6053&longitude=-3.5952&start_date=2023-05-01&end_date=2023-08-31&daily=temperature_2m_max&timezone=GMT HTTP/11" 200 None
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 20:05:25] "GET /api/temperature_over_time HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 910-393-052
+INFO:werkzeug:127.0.0.1 - - [02/Feb/2025 15:28:50] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Feb/2025 15:28:50] "[36mGET /static/dashboard_stylesheet.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Feb/2025 15:28:50] "[36mGET /static/dashboard-script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Feb/2025 15:28:50] "GET /api/payment_method_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Feb/2025 15:28:50] "GET /api/low_stock_levels HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Feb/2025 15:28:50] "GET /api/most_popular_products HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Feb/2025 15:28:50] "GET /api/product_category_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Feb/2025 15:28:50] "GET /api/orders_over_time HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): archive-api.open-meteo.com:443
+INFO:werkzeug:127.0.0.1 - - [02/Feb/2025 15:28:50] "GET /api/revenue_generation HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:https://archive-api.open-meteo.com:443 "GET /v1/archive?latitude=50.6053&longitude=-3.5952&start_date=2023-05-01&end_date=2023-08-31&daily=temperature_2m_max&timezone=GMT HTTP/11" 200 None
+INFO:werkzeug:127.0.0.1 - - [02/Feb/2025 15:28:50] "GET /api/temperature_over_time HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\IPython\\display.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\IPython\\core\\display_functions.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\IPython\\lib\\display.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\IPython\\core\\display.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\IPython\\testing\\skipdoctest.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 910-393-052
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 910-393-052
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\conda_build\\_version.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\conda_content_trust\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\conda_env\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\conda_index\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\conda_libmamba_solver\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\conda_pack\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\conda_package_handling\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\conda_package_streaming\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\conda_token\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\constantly\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\constantly\\_constants.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\contourpy\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\contourpy\\_version.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\contourpy\\convert.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\contourpy\\dechunk.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\cookiecutter\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\cpuinfo\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\cryptography\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\cryptography\\__about__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\cssselect\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\cssselect\\parser.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\cssselect\\xpath.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\curl\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\cytoolz\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\dask\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\dask_expr\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\datashader\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\db\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\debugpy\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\debugpy\\public_api.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\diff_match_patch\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\dill\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\distributed\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\distributed\\_version.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\distributed\\actor.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\distributed\\client.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\distributed\\core.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\distributed\\comm\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\distributed\\comm\\core.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\distributed\\deploy\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\distributed\\deploy\\adaptive.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\distributed\\deploy\\local.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\distributed\\deploy\\spec.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\distributed\\deploy\\ssh.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\distributed\\deploy\\subprocess.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\distributed\\diagnostics\\plugin.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\distributed\\diagnostics\\progressbar.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\distributed\\event.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\distributed\\lock.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\distributed\\multi_lock.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\distributed\\nanny.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\distributed\\pubsub.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\distributed\\queues.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\distributed\\scheduler.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\distributed\\security.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\distributed\\semaphore.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\distributed\\spans.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\distributed\\threadpoolexecutor.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\distributed\\utils.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\distributed\\variable.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\distributed\\worker.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\distributed\\exceptions.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\distributed\\worker_client.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 910-393-052
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\holoviews\\element\\geom.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\holoviews\\element\\graphs.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\holoviews\\element\\path.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\holoviews\\element\\raster.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\holoviews\\element\\sankey.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\holoviews\\element\\stats.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\holoviews\\element\\tabular.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\holoviews\\element\\tiles.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\holoviews\\__version.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\holoviews\\annotators.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\httpcore\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\httpcore\\_api.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\httpcore\\_async\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\httpcore\\_async\\interfaces.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\httpcore\\_async\\connection_pool.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\httpcore\\_async\\http2.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\httpcore\\_async\\http11.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\httpcore\\_async\\connection.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\httpcore\\_async\\http_proxy.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\httpcore\\_async\\socks_proxy.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\httpcore\\_backends\\base.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\httpcore\\_backends\\mock.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\httpcore\\_backends\\sync.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\httpcore\\_exceptions.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\httpcore\\_models.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\httpcore\\_ssl.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\httpcore\\_sync\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\httpcore\\_sync\\interfaces.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\httpcore\\_sync\\connection_pool.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\httpcore\\_sync\\http2.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\httpcore\\_sync\\http11.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\httpcore\\_sync\\connection.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\httpcore\\_sync\\http_proxy.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\httpcore\\_sync\\socks_proxy.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\httpx\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\httpx\\__version__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\httpx\\_api.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\httpx\\_auth.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\httpx\\_client.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\httpx\\_config.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\httpx\\_content.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\httpx\\_exceptions.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\httpx\\_models.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\httpx\\_status_codes.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\httpx\\_transports\\asgi.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\httpx\\_transports\\base.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\httpx\\_transports\\default.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\httpx\\_transports\\mock.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\httpx\\_transports\\wsgi.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\httpx\\_types.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\httpx\\_urls.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\hvplot\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\hyperlink\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\hyperlink\\_url.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\idna\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\idna\\core.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\idna\\intranges.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\imagecodecs\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\imagecodecs\\imagecodecs.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\imageio\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\imagesize\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\imagesize\\imagesize.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\imblearn\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\imblearn\\_version.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\imblearn\\base.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\importlib_metadata\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\importlib_metadata\\_meta.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\incremental\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\incremental\\_version.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\inflection\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\intake\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\intervaltree\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\ipykernel\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\ipykernel\\connect.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\jupyter_client\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\jupyter_client\\connect.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\jupyter_client\\launcher.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\ipython_genutils\\__init__.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 910-393-052
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\cycler.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\numpy\\typing\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\numpy\\_typing\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\numpy\\_typing\\_array_like.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\matplotlib\\typing.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\numpy\\_typing\\_extended_precision.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\matplotlib\\tests\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\matplotlib_inline\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\mdit_py_plugins\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\mdurl\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\mdurl\\_decode.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\mdurl\\_encode.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\mdurl\\_format.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\mdurl\\_parse.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\mdurl\\_url.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\menuinst\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\menuinst\\api.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\menuinst\\_version.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\mistune\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\mistune\\markdown.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\mistune\\block_parser.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\mistune\\inline_parser.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\mistune\\renderers.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\mistune\\util.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\mkl\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\mkl_fft\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\mpmath\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\msgpack\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\multipledispatch\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\mypy\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\nacl\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\navigator_updater\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\nbclient\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\nbconvert\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\nbconvert\\_version.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\nbconvert\\exporters\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\nbconvert\\exporters\\asciidoc.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\nbconvert\\exporters\\exporter.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\nbconvert\\exporters\\base.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\nbconvert\\exporters\\html.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\nbconvert\\exporters\\latex.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\nbconvert\\exporters\\markdown.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\nbconvert\\exporters\\notebook.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\nbconvert\\exporters\\pdf.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\nbconvert\\exporters\\python.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\nbconvert\\exporters\\qtpdf.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\nbconvert\\exporters\\qtpng.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\nbconvert\\exporters\\rst.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\nbconvert\\exporters\\script.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\nbconvert\\exporters\\slides.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\nbconvert\\exporters\\templateexporter.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 910-393-052
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\platformdirs\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\platformdirs\\api.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\platformdirs\\version.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\plotly\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\plotly\\version.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\pluggy\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\pluggy\\_manager.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\pluggy\\_callers.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\pluggy\\_result.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\pluggy\\_hooks.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\ply\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\prometheus_client\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\prometheus_client\\exposition.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\prometheus_client\\asgi.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\prometheus_client\\gc_collector.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\prometheus_client\\metrics.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\prometheus_client\\metrics_core.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\prometheus_client\\platform_collector.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\prometheus_client\\process_collector.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\prometheus_client\\registry.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\prompt_toolkit\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\prompt_toolkit\\application\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\prompt_toolkit\\application\\application.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\prompt_toolkit\\formatted_text\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\prompt_toolkit\\formatted_text\\ansi.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\prompt_toolkit\\formatted_text\\html.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\prompt_toolkit\\shortcuts\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\prompt_toolkit\\shortcuts\\prompt.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\prompt_toolkit\\shortcuts\\utils.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\ptyprocess\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\pure_eval\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\pyarrow\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\pyasn1_modules\\__init__.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 910-393-052
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\pywt\\_functions.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\pywt\\_multilevel.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\pywt\\_multidim.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\pywt\\_thresholding.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\pywt\\_wavelet_packets.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\pywt\\_dwt.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\pywt\\_swt.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\pywt\\_cwt.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\pywt\\_mra.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\qdarkstyle\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\qstylizer\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\qtawesome\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\qtconsole\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\qtpy\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\queuelib\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\referencing\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\referencing\\_core.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\repo_cli\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\requests_toolbelt\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\requests_toolbelt\\adapters\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\requests_toolbelt\\adapters\\ssl.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\requests_toolbelt\\adapters\\source.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\requests_toolbelt\\auth\\guess.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\requests_toolbelt\\multipart\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\requests_toolbelt\\multipart\\encoder.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\requests_toolbelt\\multipart\\decoder.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\requests_toolbelt\\streaming_iterator.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\requests_toolbelt\\utils\\user_agent.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\rich\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\rope\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\rtree\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\ruamel_yaml\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\s3fs\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\scipy\\cluster\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\scipy\\conftest.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\scipy\\constants\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\scipy\\constants\\_codata.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\scipy\\constants\\_constants.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\scipy\\datasets\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\scipy\\datasets\\_fetchers.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\scipy\\datasets\\_download_all.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\scipy\\datasets\\_utils.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\scipy\\fft\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\scipy\\fft\\_basic.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\scipy\\fft\\_realtransforms.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\scipy\\fft\\_fftlog.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\scipy\\fft\\_fftlog_backend.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\scipy\\fft\\_helper.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\scipy\\fft\\_backend.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\scipy\\fft\\_pocketfft\\helper.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\scipy\\integrate\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\scipy\\integrate\\_quadrature.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\scipy\\integrate\\_odepack_py.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\scipy\\integrate\\_quadpack_py.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\scipy\\integrate\\_ode.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\scipy\\interpolate\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\scipy\\interpolate\\_interpolate.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\scipy\\interpolate\\_fitpack_py.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\scipy\\interpolate\\_fitpack2.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\scipy\\interpolate\\_rbfinterp.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\scipy\\interpolate\\_polyint.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\scipy\\interpolate\\_cubic.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\scipy\\interpolate\\_ndgriddata.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\scipy\\interpolate\\_bsplines.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\scipy\\interpolate\\_pade.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\scipy\\interpolate\\_rgi.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\scipy\\io\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\scipy\\misc\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\scipy\\misc\\_common.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\scipy\\ndimage\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\scipy\\ndimage\\_filters.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\scipy\\ndimage\\_fourier.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\scipy\\ndimage\\_interpolation.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\scipy\\ndimage\\_measurements.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\scipy\\ndimage\\_morphology.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\scipy\\odr\\__init__.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 910-393-052
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\sqlalchemy\\sql\\_typing.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\sqlalchemy\\sql\\expression.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\sqlalchemy\\sql\\selectable.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\sqlalchemy\\sql\\_selectable_constructors.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\sqlalchemy\\sql\\_elements_constructors.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\sqlalchemy\\sql\\elements.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\sqlalchemy\\sql\\cache_key.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\sqlalchemy\\sql\\base.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\sqlalchemy\\sql\\operators.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\sqlalchemy\\sql\\dml.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\sqlalchemy\\sql\\_dml_constructors.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\sqlalchemy\\sql\\functions.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\sqlalchemy\\sql\\lambdas.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\sqlalchemy\\sql\\visitors.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\sqlalchemy\\types.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\sqlalchemy\\sql\\sqltypes.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\sqlalchemy\\sql\\type_api.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\stack_data\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\statsmodels\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\statsmodels\\_version.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\streamlit\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\streamlit\\echo.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\streamlit\\elements\\spinner.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\streamlit\\commands\\page_config.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\streamlit\\commands\\execution_control.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\sympy\\assumptions\\predicates\\calculus.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\sympy\\assumptions\\predicates\\sets.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\sympy\\functions\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\sympy\\functions\\elementary\\integers.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\sympy\\geometry\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\sympy\\geometry\\exceptions.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\sympy\\matrices\\sparsetools.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\sympy\\printing\\smtlib.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\sympy\\release.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\sympy\\series\\residues.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\sympy\\series\\series.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\tables\\__init__.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 910-393-052
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\xarray\\backends\\zarr.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\xarray\\coding\\cftime_offsets.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\xarray\\coding\\cftimeindex.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\xarray\\coding\\frequencies.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\xarray\\conventions.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\xarray\\coding\\variables.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\xarray\\core\\alignment.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\xarray\\core\\combine.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\xarray\\core\\common.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\xarray\\core\\computation.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\xarray\\core\\concat.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\xarray\\core\\dataarray.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\xarray\\core\\dataset.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\xarray\\core\\extensions.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\xarray\\core\\merge.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\xarray\\core\\options.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\xarray\\core\\parallel.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\xarray\\core\\variable.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\xarray\\util\\print_versions.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\xlwings\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\xlwings\\main.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\xlwings\\utils.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\xyzservices\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\yapf\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\yapftests\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\zict\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\zict\\async_buffer.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\zict\\buffer.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\zict\\cache.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\zict\\file.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\zict\\func.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\zict\\lmdb.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\zict\\lru.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\zict\\sieve.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\zict\\utils.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\zict\\zip.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\zipp\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\zmq\\constants.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\zmq\\error.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\zmq\\sugar\\context.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\zmq\\sugar\\frame.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\zmq\\sugar\\poll.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\zmq\\sugar\\socket.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\zmq\\sugar\\tracker.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\zmq\\sugar\\version.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\zope\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrah\\anaconda3\\Lib\\site-packages\\pythonwin\\pywin\\__init__.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 910-393-052
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 910-393-052
+INFO:werkzeug:127.0.0.1 - - [09/Feb/2025 17:21:18] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Feb/2025 17:21:18] "GET /static/dashboard-script.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Feb/2025 17:21:18] "GET /static/dashboard_stylesheet.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Feb/2025 17:21:18] "GET /api/payment_method_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Feb/2025 17:21:18] "GET /api/revenue_generation HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Feb/2025 17:21:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Feb/2025 17:21:18] "GET /api/low_stock_levels HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): archive-api.open-meteo.com:443
+INFO:werkzeug:127.0.0.1 - - [09/Feb/2025 17:21:18] "GET /api/product_category_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Feb/2025 17:21:18] "GET /api/most_popular_products HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Feb/2025 17:21:18] "GET /api/orders_over_time HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:https://archive-api.open-meteo.com:443 "GET /v1/archive?latitude=50.6053&longitude=-3.5952&start_date=2023-05-01&end_date=2023-08-31&daily=temperature_2m_max&timezone=GMT HTTP/11" 200 None
+INFO:werkzeug:127.0.0.1 - - [09/Feb/2025 17:21:18] "GET /api/temperature_over_time HTTP/1.1" 200 -
